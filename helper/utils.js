@@ -15,7 +15,10 @@ const printAnswer = (answer) => {
     console.log('\n\n########################################\n\n');
 };
 
+const binaryToDecimal = (inputArray) => parseInt(inputArray.join(''), 2);
+
 module.exports = {
     inputLoader,
     printAnswer,
+    binaryToDecimal,
 };
